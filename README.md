@@ -1,3 +1,11 @@
+# Frame Maker App
+
+## Directory Structure
+
+* Root of this project has the Frame Maker React App
+* `frameVercelDeployer` - Python Flask Server for Publishing Frame template to Vercel 
+* `frameTemplate` - Frame Template for the Frame Maker App when making frames
+
 # Web3 Starter
 
 Web 3 Starter is a modern web 3 starter template project.
