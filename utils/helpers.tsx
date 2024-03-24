@@ -1,6 +1,6 @@
 import { ethers } from "ethers";
 
-export const formatTokenAmount = (
+export const formatTokenAmount = async (
   amount: string,
   tokenDecimals: number,
   displayDecimals: number
@@ -17,3 +17,5 @@ export const formatTokenAmount = (
 
   return result.toFixed(displayDecimals);
 };
+
+

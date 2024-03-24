@@ -90,13 +90,13 @@ const Wallet: React.FC<{}> = () => {
             </a>
           </h1>
           <div className="d-flex justify-content-center mt-3">
-            <Link href="/create">
+            {/* <Link href="/create">
               <a className="btn btn-primary">Create Frame</a>
             </Link>
             &nbsp;&nbsp;
             <Link href="/">
               <a className="btn btn-primary">View Frames</a>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

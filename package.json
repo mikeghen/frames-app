@@ -1,6 +1,9 @@
 {
   "name": "eth-starter-project",
   "version": "0.1.0",
+  "browser":{
+    "child_process": false
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",

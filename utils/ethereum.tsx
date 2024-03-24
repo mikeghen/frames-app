@@ -52,7 +52,12 @@ export const createFrame = async (
         name,
         symbol
     ]);
-    return await createFrameTx.wait();
+
+    await createFrameTx.wait();
+
+    const contractAddress = await factory.getFrame(creator);
+
+    return contractAddress;
 };
 
 
